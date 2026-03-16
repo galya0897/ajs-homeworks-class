@@ -2,6 +2,14 @@
   "name": "ajs",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://github.com/galya0897/ajs-homeworks-test-ci#readme",
+  "bugs": {
+    "url": "https://github.com/galya0897/ajs-homeworks-test-ci/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/galya0897/ajs-homeworks-test-ci.git"
+  },
   "license": "MIT",
   "author": "Rysaev Damir <freepad@ya.ru>",
   "type": "commonjs",
@@ -17,6 +25,9 @@
     "show:coverage": "live-server coverage/lcov-report",
     "preshow:dist": "npm run build",
     "show:dist": "live-server dist"
+  },
+  "dependencies": {
+    "core-js": "^3.48.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.23.0",
@@ -34,8 +45,5 @@
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1"
-  },
-  "dependencies": {
-    "core-js": "^3.48.0"
   }
 }
